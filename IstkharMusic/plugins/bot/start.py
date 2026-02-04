@@ -52,10 +52,10 @@ NEXI_VID = [
 async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
 
-    typing_message = await message.reply("<b> Isᴛᴋʜᴀʀ..Bᴏᴛs..❤️‍🔥</b>")
+    typing_message = await message.reply("<b> ᴧᴧʀᴜᴍɪ..ʙᴏᴛѕ..❤️‍🔥</b>")
     
     
-    typing_text = "<b>𝖲ᴛᴀʀᴛɪɴɢ...❤️‍🔥</b>"
+    typing_text = "<b>𝖲ᴛᴧʀᴛɪɴɢ...❤️‍🔥</b>"
     
     for i in range(1, len(typing_text) + 1):  
         try:
