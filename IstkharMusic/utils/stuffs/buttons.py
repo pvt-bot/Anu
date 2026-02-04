@@ -5,12 +5,12 @@ import config
 class BUTTONS(object):
     ABUTTON = [
     [
-        InlineKeyboardButton("sυᴘᴘᴏʀᴛ", url="https://t.me/THUNDERDEVS"),
-        InlineKeyboardButton("υᴘᴅᴧᴛᴇs", url="https://t.me/IamIstkhar")
+        InlineKeyboardButton("sυᴘᴘᴏʀᴛ", url="https://t.me/AarumiChat"),
+        InlineKeyboardButton("υᴘᴅᴧᴛᴇs", url="https://t.me/AarumiBots")
     ],
     [
         InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=config.OWNER_ID),
-        InlineKeyboardButton("• ʙᴧᴄᴋ •", callback_data="settingsback_helper")
+        InlineKeyboardButton("ʙᴧᴄᴋ", callback_data="settingsback_helper")
     ]
 ]
 
@@ -23,7 +23,7 @@ class BUTTONS(object):
     [
         
         InlineKeyboardButton("ᴘʀɪᴠᴧᴄʏ", url="https://docs.google.com/document/d/11Q_ZuvSzkhkgbvVrPxQdqktP2_ioiaqAa7QdsHezfnM/mobilebasic"),
-        InlineKeyboardButton("• ʙᴧᴄᴋ •", callback_data="settingsback_helper"),
+        InlineKeyboardButton("ʙᴧᴄᴋ", callback_data="settingsback_helper"),
     ]
     ]
     
@@ -31,7 +31,7 @@ class BUTTONS(object):
 
     INFO_NEW = [
     [
-        InlineKeyboardButton("• ʙᴧᴄᴋ •", callback_data="settings_back_helper")],
+        InlineKeyboardButton("ʙᴧᴄᴋ", callback_data="settings_back_helper")],
     ]
     
     
